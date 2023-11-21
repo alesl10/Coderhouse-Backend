@@ -1,0 +1,10 @@
+<div class='home-container'>
+	<form method='post' action='/api/sessions/logout'>
+		<p>BIENVENIDOS A TAZARPADO! <strong>{{user.email}}</strong></p>
+		<strong>{{user.role}}</strong><br>
+		<input type='submit' value='Logout' class='home-button' />
+	</form>
+	<form method='post' action='/api/sessions/restore'>
+		<input type='submit' value='Restore password' class='home-button' />
+	</form>
+</div>

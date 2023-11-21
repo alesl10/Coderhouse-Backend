@@ -1,0 +1,16 @@
+<div class='product-container'>
+	<div class='product-item'>
+		<p>PRODUCTO: {{product.title}}</p>
+		<p>DESCRIPCION: {{product.description}}</p>
+		<p>PRECIO: ${{product.price}}</p>
+		<p>STOCK: {{product.stock}}</p>
+		<p>CATEGORIA: {{product.category}}</p>
+	</div>
+
+	<form class='product-form' cart='{{cart}}' product='{{product._id}}'>
+		<input type='submit' value='Agregar al carrito' class='product-button' />
+	</form>
+
+</div>
+
+<script src='/js/products.js'></script>

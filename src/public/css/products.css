@@ -1,0 +1,85 @@
+.products-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+
+.products-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 40px;
+	gap: 60px;
+}
+
+.product-item {
+	border-radius: 10px;
+	background-color: yellow;
+	border: solid 2px rgb(9, 9, 119);
+}
+
+.product-link {
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+	padding: 20px;
+	text-decoration: none;
+	color: rgb(9, 9, 119);
+	font-size: 20px;
+	gap: 15px;
+}
+
+.product-form {
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	background-color: rgb(9, 9, 119);
+	cursor: pointer;
+	padding: 5px;
+}
+
+.product-button {
+	font-size: 16px;
+	background-color: transparent;
+	border: none;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Comfortaa';
+	font-weight: 600;
+}
+
+.paginate-container {
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+}
+
+.paginate-button {
+	font-size: 16px;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(9, 9, 119);
+	border: none;
+	color: white;
+	font-family: 'Comfortaa';
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.paginate-current {
+	font-size: 16px;
+	padding: 5px;
+	background-color: rgb(9, 9, 119);
+	border: solid 2px rgb(9, 9, 119);
+	color: yellow;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+	overflow-x: hidden;
+	background-color: rgb(115, 115, 218);
+}
+
+.header-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	gap: 20px;
+	list-style: none;
+	padding: 20px;
+}
+
+.header-link {
+	color: rgb(9, 9, 119);
+	font-size: 20px;
+}
